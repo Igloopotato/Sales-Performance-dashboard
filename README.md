@@ -19,7 +19,7 @@ Scripts:
 
 ### 2. Data Modelling
 
-Data modelling involves structuring and organizing the raw data into a format suitable for analysis. This step ensures that the data is clean, reliable, and ready for further processing. The data model is designed to support efficient querying and reporting.
+Data modelling involves structuring and organizing the raw data into a format suitable for analysis. The data model is designed to support efficient querying and reporting.
 
 ### 3. DAX (Data Analysis Expressions)
 
