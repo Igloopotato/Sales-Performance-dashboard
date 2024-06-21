@@ -37,7 +37,7 @@ DAX is used in Power BI to create custom calculations and aggregations. Examples
 - Measures
 - Time intelligence functions
 
-The Power BI dashboard file is located in the `powerbi/` directory:
+The Power BI dashboard file is located in the `assets` directory:
 - `powerbi/Sales_Performance_Dashboard.pbix`
 
 ## Getting Started
@@ -46,7 +46,7 @@ To get started with this project, you can clone the repository and explore the S
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/Sales_Performance_Dashboard.git
+    git clone https://github.com/marswanttobeanalyst/Sales_Performance_Dashboard.git
     ```
 2. **Set Up PostgreSQL**:
     - Import the raw data into PostgreSQL.
@@ -55,7 +55,4 @@ To get started with this project, you can clone the repository and explore the S
 3. **Open Power BI Dashboard**:
     - Open the `.pbix` file in Power BI Desktop to view the dashboard.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
