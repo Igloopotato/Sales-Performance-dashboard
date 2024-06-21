@@ -8,37 +8,33 @@ The objective of this project is to develop a comprehensive performance dashboar
 
 ## Methodology
 
-### Data Modelling
+### 1. Data Cleaning and Transformation
+
+The data cleaning and transformation process is handled using PostgreSQL, involving steps such as loading raw data into PostgreSQL tables, cleaning the data by handling missing values, removing duplicates, and correcting inconsistencies, and transforming the data to prepare it for analysis, which may include aggregating data, creating new calculated columns, and restructuring tables.
+
+Scripts:
+- `assets/Dim_Product.sql`
+- `assets/Dim_accounts.sql`
+- `assets/Fact_sales.sql`
+
+### 2. Data Modelling
 
 Data modelling involves structuring and organizing the raw data into a format suitable for analysis. This step ensures that the data is clean, reliable, and ready for further processing. The data model is designed to support efficient querying and reporting.
 
-### Data Cleaning and Transformation
+### 3. DAX (Data Analysis Expressions)
 
-The data cleaning and transformation process is handled using PostgreSQL. The steps involved include:
+DAX is used in Power BI to create custom calculations and aggregations. DAX functions that might be used include:
 
-1. **Loading Data**: Raw data is loaded into PostgreSQL tables.
-2. **Cleaning Data**: This involves handling missing values, removing duplicates, and correcting inconsistencies.
-3. **Transforming Data**: Transformations are applied to the data to prepare it for analysis. This may include aggregating data, creating new calculated columns, and restructuring tables.
-
-Scripts:
-- `sql/data_cleaning.sql`: Contains SQL queries.
-
-### Power BI Dashboard
+### 4. Data Visualization
 
 The final step is creating a performance dashboard in Power BI. This dashboard provides visual insights into the following metrics:
 - **Sales**: Total sales over a specified period.
 - **Gross Margin**: Gross margin percentage and trends.
 - **Quantity**: Quantity of products sold.
 
-#### DAX (Data Analysis Expressions)
-
-DAX is used in Power BI to create custom calculations and aggregations. Examples of DAX functions that might be used include:
-- Calculated columns
-- Measures
-- Time intelligence functions
 
 The Power BI dashboard file is located in the `assets` directory:
-- `powerbi/Sales_Performance_Dashboard.pbix`
+- `assets/Performance Analysis of a company from the year 2022 to 2024.pbix`
 
 ## Getting Started
 
