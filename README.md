@@ -2,6 +2,19 @@
 
 This repository contains all the resources and documentation for a Sales Performance Dashboard project. The project involves data cleaning and transformation using PostgreSQL and the creation of a performance dashboard in Power BI.
 
+## Table of Contents
+
+- [Executive Summary](#executive-summary)
+- [Datasets](#datasets)
+- [Methodology](#methodology)
+  - [Data Cleaning and Transformation](#1-data-cleaning-and-transformation)
+  - [Data Modelling](#2-data-modelling)
+  - [DAX (Data Analysis Expressions)](#3-dax-data-analysis-expressions)
+  - [Data Visualization](#4-data-visualization)
+- [Findings](#findings)
+- [Future Approach](#future-approach)
+- [Getting Started](#getting-started)
+
 ## Executive Summary
 
 The objective of this project is to develop a comprehensive performance dashboard that provides insights into sales, gross margin, and quantity. The data used in this project is initially stored in a raw format, which is cleaned and transformed using PostgreSQL. The transformed data is then visualized using Power BI to create an interactive dashboard.
