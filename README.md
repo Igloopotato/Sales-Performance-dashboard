@@ -21,8 +21,7 @@ The data cleaning and transformation process is handled using PostgreSQL. The st
 3. **Transforming Data**: Transformations are applied to the data to prepare it for analysis. This may include aggregating data, creating new calculated columns, and restructuring tables.
 
 Scripts:
-- `sql/data_cleaning.sql`: Contains SQL queries for cleaning the data.
-- `sql/data_transformation.sql`: Contains SQL queries for transforming the data.
+- `sql/data_cleaning.sql`: Contains SQL queries.
 
 ### Power BI Dashboard
 
