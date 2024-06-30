@@ -18,6 +18,7 @@ The data structure for data modelling will always follow STAR schema. The Dim_Da
 
 ## Dashboard 
 All the DAX will be added in the folder later or you can simply view it in the pbi files.
+
 ![Recording 2024-06-30 132356](https://github.com/marswanttobeanalyst/Sales-Performance-dashboard/assets/141108687/b5b58ac4-7812-417f-a563-1f71358bb028)
 
 
