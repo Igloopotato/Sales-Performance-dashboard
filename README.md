@@ -13,8 +13,10 @@ The director want to know about the sales performance of the company for the las
 - Next, use Power BI to structure and organize the Data Modeling, use Power Query and DAX for custom calculations such as the calendar table, and create the dashboard to visualize metrics such as total sales, gross margin percentage, and quantity of products sold.
 
 ## Data Modelling
-The data structure for data modelling will always follow STAR schema. The Dim_Date was made using Power Query and simple DAX
-![Screenshot 2024-06-30 132154](https://github.com/marswanttobeanalyst/Sales-Performance-dashboard/assets/141108687/7ab4e0db-c169-48d8-be52-0a2ce8e3bc98)
+The data structure for data modelling will always follow STAR schema. The Dim_Date was made using Power Query and simple DAX.
+
+<img src="https://github.com/marswanttobeanalyst/Sales-Performance-dashboard/assets/141108687/7ab4e0db-c169-48d8-be52-0a2ce8e3bc98" width="650" alt="Screenshot 2024-06-30 132154">
+
 
 ## Dashboard 
 All the DAX will be added in the folder later or you can simply view it in the pbi files.
