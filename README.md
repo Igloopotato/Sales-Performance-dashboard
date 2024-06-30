@@ -1,53 +1,25 @@
 # Sales Performance Dashboard
-
-This repository contains all the resources and documentation for a Sales Performance Dashboard project. The project involves data cleaning and transformation using PostgreSQL and the creation of a performance dashboard in Power BI.
-
-## Table of Contents
-
-- [Executive Summary](#executive-summary)
-- [Datasets](#datasets)
-- [Methodology](#methodology)
-  - [Data Cleaning and Transformation](#1-data-cleaning-and-transformation)
-  - [Data Modelling](#2-data-modelling)
-  - [DAX (Data Analysis Expressions)](#3-dax-data-analysis-expressions)
-  - [Data Visualization](#4-data-visualization)
-- [Findings](#findings)
-- [Future Approach](#future-approach)
-- [Getting Started](#getting-started)
-
 ## Executive Summary
 
-The objective of this project is to develop a comprehensive performance dashboard that provides insights into sales, gross margin, and quantity. The data used in this project is initially stored in a raw format, which is cleaned and transformed using PostgreSQL. The transformed data is then visualized using Power BI to create an interactive dashboard.
+The director want to know about the sales performance of the company for the last year and have asked you as a Data Analyst to make one dashboard that will give insight on the current status of the sales of the company. Some of the things she would like to know are
+
+- How's the sales performance doing compared to last year?
+- Where's the branch that cost us the most and why?
+- Is there anything that affecting our sales?
 
 ## Methodology
 
-### 1. Data Cleaning and Transformation
+- The data cleaning and transformation process is handled using PostgreSQL, involving steps such as loading raw data into PostgreSQL tables, cleaning the data by handling missing values, removing duplicates, and correcting inconsistencies, and transforming the data to prepare it for analysis, which may include aggregating data, creating new calculated columns, and restructuring tables.
+- Next, use Power BI to structure and organize the Data Modeling, use Power Query and DAX for custom calculations such as the calendar table, and create the dashboard to visualize metrics such as total sales, gross margin percentage, and quantity of products sold.
 
-The data cleaning and transformation process is handled using PostgreSQL, involving steps such as loading raw data into PostgreSQL tables, cleaning the data by handling missing values, removing duplicates, and correcting inconsistencies, and transforming the data to prepare it for analysis, which may include aggregating data, creating new calculated columns, and restructuring tables.
+## Data Modelling
+The data structure for data modelling will always follow STAR schema. The Dim_Date was made using Power Query and simple DAX
+![Screenshot 2024-06-30 132154](https://github.com/marswanttobeanalyst/Sales-Performance-dashboard/assets/141108687/7ab4e0db-c169-48d8-be52-0a2ce8e3bc98)
 
-Scripts:
-- `assets/Dim_Product.sql`
-- `assets/Dim_accounts.sql`
-- `assets/Fact_sales.sql`
+## Dashboard 
+All the DAX will be added in the folder later or you can simply view it in the pbi files.
+![Recording 2024-06-30 132356](https://github.com/marswanttobeanalyst/Sales-Performance-dashboard/assets/141108687/b5b58ac4-7812-417f-a563-1f71358bb028)
 
-### 2. Data Modelling
-
-Data modelling involves structuring and organizing the raw data into a format suitable for analysis. The data model is designed to support efficient querying and reporting.
-
-### 3. DAX (Data Analysis Expressions)
-
-DAX is used in Power BI to create custom calculations and aggregations. DAX functions that might be used include:
-
-### 4. Data Visualization
-
-The final step is creating a performance dashboard in Power BI. This dashboard provides visual insights into the following metrics:
-- **Sales**: Total sales over a specified period.
-- **Gross Margin**: Gross margin percentage and trends.
-- **Quantity**: Quantity of products sold.
-
-
-The Power BI dashboard file is located in the `assets` directory:
-- `assets/Performance Analysis of a company from the year 2022 to 2024.pbix`
 
 ## Getting Started
 
