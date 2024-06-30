@@ -1,4 +1,4 @@
-# Sales Performance Dashboard
+# Performance Dashboard
 ## Executive Summary
 
 The director want to know about the sales performance of the company for the last year and have asked you as a Data Analyst to make one dashboard that will give insight on the current status of the sales of the company. Some of the things she would like to know are
